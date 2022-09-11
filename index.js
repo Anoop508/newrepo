@@ -3,7 +3,7 @@ const cors = require("cors");
 const path = require('path')
 const Axios = require("axios");
 const app = express();
-const PORT = process.env.NODE_ENV || 5000
+const PORT = process.env.PORT || 5000
 
 app.use(express.static(path.join(__dirname + "/public")))
 
